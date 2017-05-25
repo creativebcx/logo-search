@@ -11,7 +11,7 @@ elButton.click(function(event) {
 	//console.log(elProgramType.val());
 	if (elProgramType.val()==loanProgram) {
 		$('.row1 .item3 img').attr('src', 'img/afeColor.png');
-		$('.row2 .item1 img').attr('src', 'img/afeColor.png');
+		$('.row4 .item3 img').attr('src', 'img/afeColor.png');
 		$('.row3 .item1 img').attr('src', 'img/afeColor.png');
 		$('.row3 .item4 img').attr('src', 'img/afeColor.png');
 	}
