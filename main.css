@@ -1,0 +1,63 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 3%;
+	font-family: 'Great Vibes', cursive;
+	color: #990000;
+}
+input {
+	margin: 2%;
+	height: 25px;
+	width: auto;
+	font-size: 16px;
+}
+
+button {
+	width: 15%;
+	height: 25px;
+	background-color: #990000;
+	color: white;
+	border: none;
+	font-size: 16px
+}
+
+
+.outer-container {
+	position: relative;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.form-container {
+	padding: 5%;
+	text-align: center;
+	background: rgba(160, 160, 160, 0.1); 
+}
+
+.outer-logo-container {
+	padding-top: 3%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 3%;
+	display: inline-block;
+	/*border: 1px solid black;*/
+}
+
+.inner-logo-container {
+	width: 500px;
+	/*border: 1px solid red;*/
+}
+
+.item1, .item2, .item3, .item4 {
+	display: inline-block;
+	/*border: 1px solid blue;*/
+	width:24%;
+	margin-top: 3%;
+}

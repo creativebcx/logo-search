@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Company Logo Search</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="main-container">
+		<h1 class="heading">Society Education Programs</h1>
+		<div class="outer-container">
+		<div class="form-container">
+			<form>
+				<input id="program-type-input" list="program-type" placeholder="Program Type">
+					<datalist id="program-type">
+						<option id="program1" value="Loan Program"></option>
+						<option id="program2" value="Scholarship Program"></option>
+					</datalist>
+					<input id="education-level-input" list="education-level" placeholder="Education Level">
+					<datalist id="education-level">
+						<option id="k-12" value="K-12"></option>
+						<option id="high-school" value="High School"></option>
+					</datalist>
+				<br><br><button id="js-button" type="submit">Search</button>
+			</form>
+		</div>
+		<div>
+		<div class="outer-logo-container">
+			<div class="inner-logo-container">
+				<div class="row1">
+					<div class="item1"><img src="img/aci.png"></div>
+					<div class="item2"><img src="img/acm.png"></div>
+					<div class="item3"><img src="img/afe.png"></div>
+					<div class="item4"><img src="img/aci.png"></div>
+				</div>
+				<div class="row2">
+					<div class="item1"><img src="img/acm.png"></div>
+					<div class="item2"><img src="img/afe.png"></div>
+					<div class="item3"><img src="img/afe.png"></div>
+					<div class="item4"><img src="img/aci.png"></div>
+				</div>
+				<div class="row3">
+					<div class="item1"><img src="img/afe.png"></div>
+					<div class="item2"><img src="img/afe.png"></div>
+					<div class="item3"><img src="img/aci.png"></div>
+					<div class="item4"><img src="img/afe.png"></div>
+				</div>
+				<div class="row4">
+					<div class="item1"><img src="img/acm.png"></div>
+					<div class="item2"><img src="img/aci.png"></div>
+					<div class="item3"><img src="img/afe.png"></div>
+					<div class="item4"><img src="img/acm.png"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
